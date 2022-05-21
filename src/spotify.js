@@ -2,7 +2,7 @@ import axios from "axios";
 
 const authEndpoint = "https://accounts.spotify.com/authorize?";
 const clientId = "80cf0d95184c4be3a55a9de8510f5d23";
-const redirectUri = "http://localhost:3000/";
+// const redirectUri = "http://localhost:3000/";
 const scopes=["user-library-read", "playlist-read-private"];
 const REACT_APP_VERCEL_URL='https://music-player-ljwp6jyue-harsha-vardhan-ch.vercel.app'; 
 
